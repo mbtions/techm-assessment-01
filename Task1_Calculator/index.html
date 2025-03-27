@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <aside id="rules">
+        <h2>Rules</h2>
+        <ul id="ruleslist">
+            <li>Click on the buttons or Press the keys to perform the operations.</li>
+            <li>
+                <table>
+                    <tr>
+                        <th id="keystext">Keys</th>
+                        <th id="buttonstext" colspan="2" style="text-align:center">Buttons</th>
+                    </tr>
+                    <tr>
+                        <td><span class="key">↵</span>, <span class="key">=</span></td>
+                        <td colspan="2" style="text-align:center">=</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">a</span>, <span class="key">A</span></td>
+                        <td colspan="2" style="text-align:center">AC</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">c</span>, <span class="key">C</span></td>
+                        <td colspan="2" style="text-align:center">C</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">s</span>, <span class="key">S</span></td>
+                        <td colspan="2" style="text-align:center">&Sqrt;</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">Shift</span> + <span class="key">5</span></td>
+                        <td colspan="2" style="text-align:center">%</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">Shift</span> + <span class="key">=</span></td>
+                        <td colspan="2" style="text-align:center">+</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">-</span></td>
+                        <td colspan="2" style="text-align:center">-</td>
+                    </tr>
+                    <tr>
+                        <td><span class="key">/</span></td>
+                        <td colspan="2" style="text-align:center">/</td>
+                    </tr>
+                </table>
+            </li>
+            <li>Press the <i><b>Enter</b></i> key or Click on "=" button to get the result.</li>
+            <li>Click on the "C" or "AC" button or press "c" or "a" keys to clear the entry.</li>
+            <li>Click on the "&Sqrt;" button or press "s" key to find the square root of the number.</li>
+            <li>Click on the "%" button or press "%" key to find the percentage of the number.</li>
+            <li>Click on the "Clear All" button to clear the history.</li>
+            <li>First type the input number then click the "&Sqrt;" or press the "s" key to find its square root.</li>
+        </ul>
+    </aside>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" class="displaybox" value="0" disabled>
+        </div>
+        <div class="buttons">
+            <button class="button number" id="num9" value="7">7</button>
+            <button class="button number" id="num8" value="8">8</button>
+            <button class="button number" id="num9" value="9">9</button>
+            <button class="button operator" value="/">/</button>
+            <button class="button number" id="num4" value="4">4</button>
+            <button class="button number" id="num5" value="5">5</button>
+            <button class="button number" id="num6" value="6">6</button>
+            <button class="button operator" value="*">*</button>
+            <button class="button number" id="num1" value="1">1</button>
+            <button class="button number" id="num2" value="2">2</button>
+            <button class="button number" id="num3" value="3">3</button>
+            <button class="button operator" id="subtractbtn" value="-">-</button>
+            <button class="button number" id="num0" value="0">0</button>
+            <button class="button" id="pointdecimal" value=".">.</button>
+            <button class="button operator" id="addbtn" value="+">+</button>
+            <button class="button operator" id="equalbtn" value="=">=</button>
+            <button class="button option" id="clearbtn" value="C">C</button>
+            <button class="button option" id="allclearbtn" value="AC">AC</button>
+            <button class="button operator square-root" id="sqrtbtn" value="sqrt">&Sqrt;</button>
+            <button class="button operator" id="percentbtn" value="%">%</button>
+        </div>
+    </div>
+    <aside id="historyBox">
+        <input id="calculation" type="text" disabled>0</input>
+        <div id="history">
+            <h2>History</h2>
+            <button id="clearhistory">Clear
+                All</button>
+            <ul id="historylist">
+
+            </ul>
+        </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+
+</html>
