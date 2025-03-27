@@ -11,4 +11,4 @@
 
 # Video: Working of Calculator
 
-[![Video of Calculator](https://i.sstatic.net/Vp2cE.png)](./screenshots/video.mp4)
+![Video of Calculator](./screenshots/video.gif)
