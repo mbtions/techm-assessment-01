@@ -27,11 +27,11 @@ public class LibraryBookManagement {
         Book[] books = new Book[5];
 
         // Initialize books with sample data
-        books[0] = new Book("The Great Gatsby", "F. Scott Fitzgerald", 10.99);
-        books[1] = new Book("To Kill a Mockingbird", "Harper Lee", 8.99);
-        books[2] = new Book("1984", "George Orwell", 6.99);
-        books[3] = new Book("Pride and Prejudice", "Jane Austen", 7.49);
-        books[4] = new Book("Moby Dick", "Herman Melville", 11.29);
+        books[0] = new Book("The Great Gatsby", "F. Scott Fitzgerald", 799);
+        books[1] = new Book("To Kill a Mockingbird", "Harper Lee", 899);
+        books[2] = new Book("The Power of Your Subconscious Mind", "Joseph Murphy", 699);
+        books[3] = new Book("Pride and Prejudice", "Jane Austen", 749);
+        books[4] = new Book("Ikigai", "Hector Garcia", 450);
 
         Scanner sc = new Scanner(System.in);
 
